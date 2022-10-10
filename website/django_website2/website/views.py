@@ -20,5 +20,6 @@ class AboutView(TemplateView):
         ctxt["skills"] = [
             "Python",
             "java",
+            "HTML",
         ]
         return ctxt
